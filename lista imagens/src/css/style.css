@@ -1,0 +1,39 @@
+html {
+    background-color: #8d7b7b;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.pinturas {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.pinturas .pintura {
+    width: 300px;
+    height: 280px;
+    position: relative;
+}
+
+.pinturas .pintura img {
+    width: 100%;
+}
+
+.pinturas .pintura .informacoes {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    color: beige;
+}
+
+.pinturas .pintura .informacoes .titulo {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.pinturas .pintura .informacoes .subtitulo {
+    font-size: 17px;
+    font-weight: 300px;
+}
